@@ -1,0 +1,41 @@
+C
+C++
+2d:COCOS2DX
+3d:UNITY3D
+C#
+粒子系统
+openGL
+lua
+objectiveC Xcode
+数据结构和算法
+IOS sdk
+game的组成和架构
+
+OC
+
+[第一课时]
+是OC的所有量都需要正在前面加上@来进行标识
+
+Xcode OSX下创建命令行工程
+将TYPE改成Foundation
+main程序从main.c变成了main.m
+.mm里既可以写C也可以写OC和C++
+.m中既可以使用c也可以使用OC
+
+#import<Foundation/Foundation.h>把C语言中的所有东西都包含了
+尽量使用import
+
+@autoreleasepool自动释放池 一种内存管理方式
+主要是将对象进行释放
+要将代码写在它的大括号中
+
+NSlog类似print,但里面必须是OC语言(@"exp");
+NSlog的输出比print的多,会多一些系统提示的信息.
+
+OC中的布尔型是用BOOL来声明的,值有YES 和 NO
+而真正的类型是无符号的char型
+而char是用ASCII码来表示的,YES就是1,NO就是O.
+
+
+
+
